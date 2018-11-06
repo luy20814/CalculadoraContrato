@@ -1,0 +1,10 @@
+{
+    "id" : "http://localhost/schema/numeros.json",
+    "title" : "Lista de numeros",
+    "properties": {
+        "numeros": {
+            "type": "string",
+            "description": "Lista de numeros separada por :"
+        }
+    }
+}
