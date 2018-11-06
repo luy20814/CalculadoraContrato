@@ -1,0 +1,14 @@
+{
+    "id" : "http://localhost/schema/resultado.json",
+    "title" : "Resultado de la operacion matematica realizada",
+    "properties": {
+        "operacion": {
+            "type": "string",
+            "description": "Nombre de la operacion realizada"
+        }
+		"resultado": {
+			"type": "int",
+			"description": "Resultado de la operacion"
+		}
+    }
+}

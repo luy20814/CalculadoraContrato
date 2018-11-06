@@ -1,0 +1,14 @@
+{
+    "id" : "http://localhost/schema/numerosrd.json",
+    "title" : "Numeros para realizar operacion (resta, division)",
+    "properties": {
+        "numero1": {
+            "type": "int",
+            "description": "Numero para realizar operacion"
+        }
+		"numero2": {
+			"type": "int",
+			"description": "Numero para realizar la operacion"
+		}
+    }
+}
