@@ -20,12 +20,12 @@ paths:
         description: "Lista de numeros separada por :"
         required: true
         schema:
-          $ref: "/schema/numeros.json"
+          $ref: "./schema/numeros.json"
       responses:
         200:
           description: Retorna el valor de la suma de los números.
           schema:
-            $ref: "/schema/resultado.json" 
+            $ref: "./schema/resultado.json" 
         404:
           description: Error en los parámetros, página no encontrada.
   /restar/:
@@ -41,12 +41,12 @@ paths:
         description: "Números a restar"
         required: true
         schema:
-          $ref: "/schema/numerosrd.json"
+          $ref: "./schema/numerosrd.json"
       responses:
         200:
           description: Retorna el valor de la resta de los números.
           schema:
-            $ref: "/schema/resultado.json" 
+            $ref: "./schema/resultado.json" 
         404:
           description: Error en los parámetros, página no encontrada.
   /multiplicar/:
@@ -62,12 +62,12 @@ paths:
         description: "Lista de numeros separada por :"
         required: true
         schema:
-          $ref: "/schema/numeros.json"
+          $ref: "./schema/numeros.json"
       responses:
         200:
           description: Retorna el valor de la multiplicación de los números.
           schema:
-            $ref: "/schema/resultado.json" 
+            $ref: "./schema/resultado.json" 
         404:
           description: Error en los parámetros, página no encontrada.
   /dividir/:
@@ -83,12 +83,12 @@ paths:
         description: "Números a dividir"
         required: true
         schema:
-          $ref: "/schema/numerosrd.json"
+          $ref: "./schema/numerosrd.json"
       responses:
         200:
           description: Retorna el valor de la división de los números.
           schema:
-            $ref: "/schema/resultado.json" 
+            $ref: "./schema/resultado.json" 
         404:
           description: Error en los parámetros, página no encontrada.
         
